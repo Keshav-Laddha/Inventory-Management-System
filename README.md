@@ -1,7 +1,10 @@
 # 📊 Inventory Management System with AI Forecasting 
 **A full-stack web application with React.js, Flask, and MySQL that optimizes inventory using predictive analytics**  
 
-![Demo Screenshot](/docs/screenshots/demo.png)  
+![Demo Screenshot](/Docs/Screenshot_Analytics.jpeg)   
+![Demo Screenshot](/Docs/Screenshot/Inventory.jpeg)  
+![Demo Screenshot](/Docs/Screenshot 2025-04-11 021616.png)
+![Demo Screenshot](/Docs/Screenshot 2025-04-11 021632.png)  
 
 ## ✨ Key Features
 - **AI-Powered Forecasting**: Reduces stockouts by 25% using Pandas/NumPy linear regression
@@ -29,6 +32,7 @@
    npm start
    
 ## 🌟 Highlights
+![Demo Screenshot](/Docs/Screenshot_Analytics_Dark_Mode.jpeg)   
 **Predictive Analytics**
 1. Machine learning model predicting stock requirements
       ```bash
