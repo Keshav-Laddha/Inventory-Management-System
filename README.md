@@ -30,25 +30,25 @@
    
 ## 🌟 Highlights
 **Predictive Analytics**
-Machine learning model predicting stock requirements
-  ```bash
-  # Sample forecasting code
-  model = LinearRegression()
-  model.fit(X_train, y_train)
-  predictions = model.predict(next_week_demand)
+1. Machine learning model predicting stock requirements
+      ```bash
+      # Sample forecasting code
+      model = LinearRegression()
+      model.fit(X_train, y_train)
+      predictions = model.predict(next_week_demand)
 
-Smart Merging System
-  ```bash
-  # Auto-merge products with same name/price
-  def merge_products(existing, new):
-      return {
-          **existing,
-          'quantity': existing['quantity'] + new['quantity']
-      }
+2. Smart Merging System
+     ```bash
+     # Auto-merge products with same name/price
+     def merge_products(existing, new):
+         return {
+             **existing,
+             'quantity': existing['quantity'] + new['quantity']
+         }
 
 ## 📈 Performance Metrics
 - Reduced overstocking by **30%** through **AI recommendations**
 
-- Improved query speed by 40% with optimized MySQL indexing
+- Improved query speed by **40%** with optimized **MySQL indexing**
 
-- Achieved 95% test coverage with Jest/Pytest
+- Achieved **95% test coverage** with **Jest/Pytest**
