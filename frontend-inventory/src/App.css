@@ -1,0 +1,101 @@
+.inventory-app {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.product-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-light-primary {
+  background-color: #e3f2fd !important;
+}
+
+/* Table row hover effect */
+.table-hover tbody tr:hover {
+  background-color: rgba(13, 110, 253, 0.05) !important;
+}
+
+/* Custom scrollbar */
+.table-responsive::-webkit-scrollbar {
+  height: 8px;
+}
+.table-responsive::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.table-responsive::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+/* Button animations */
+.btn {
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Modal animation */
+.modal.fade .modal-dialog {
+  transform: translateY(-20px);
+  transition: transform 0.3s ease-out;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #121212;
+  min-height: 100vh;
+}
+
+.dark-table {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+.dark-table thead {
+  background-color: #2d2d2d !important;
+}
+
+.bg-dark-gray {
+  background-color: #1e1e1e;
+}
+
+/* Charts */
+.analytics-section {
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+/* Product Icons */
+.product-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-light-primary {
+  background-color: #e3f2fd !important;
+}
+
+/* Tab Styling */
+.nav-tabs .nav-link.active {
+  font-weight: bold;
+}
+
+.tabs-dark .nav-link {
+  color: #adb5bd;
+}
+
+.tabs-dark .nav-link.active {
+  color: #ffffff;
+  background-color: #2d2d2d;
+  border-color: #444 #444 #2d2d2d;
+}
