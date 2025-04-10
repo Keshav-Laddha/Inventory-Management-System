@@ -2,9 +2,7 @@
 **A full-stack web application with React.js, Flask, and MySQL that optimizes inventory using predictive analytics**  
 
 ![Demo Screenshot](/Docs/Screenshot_Analytics.jpeg)   
-![Demo Screenshot](/Docs/Screenshot/Inventory.jpeg)  
-![Demo Screenshot](/Docs/Screenshot 2025-04-11 021616.png)
-![Demo Screenshot](/Docs/Screenshot 2025-04-11 021632.png)  
+![Demo Screenshot](/Docs/Screenshot_Inventory.jpeg)  
 
 ## ✨ Key Features
 - **AI-Powered Forecasting**: Reduces stockouts by 25% using Pandas/NumPy linear regression
